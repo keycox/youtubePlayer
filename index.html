@@ -3,6 +3,7 @@
 
 <head>
     <title>youtube custom player</title>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link href="https://unpkg.com/material-components-web@v4.0.0/dist/material-components-web.min.css" rel="stylesheet">
     <script src="https://unpkg.com/material-components-web@v4.0.0/dist/material-components-web.min.js"></script>
@@ -15,35 +16,70 @@
 
 <body>
 
-    <div class="l-wrapper">
-
-        <header>
-
-        </header>
-
-
-        <div class="unit">
-            <div id="playerwrap">
-                <div id="player"></div>
-            </div>
+    <header class="mdc-top-app-bar app-bar" id="app-bar">
+        <div class="mdc-top-app-bar__row">
+            <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+                <button class="material-icons mdc-top-app-bar__navigation-icon mdc-icon-button">menu</button>
+                <span class="mdc-top-app-bar__title"></span>
+            </section>
         </div>
+    </header>
 
-        <div class="l-cont-wrap">
-            <div class="unit">
-                <select name="speed" id="speed">
-                    <option value=0.5>50%</option>
-                    <option value=0.6>60%</option>
-                    <option value=0.7>70%</option>
-                    <option value=0.8>80%</option>
-                    <option value=0.9>90%</option>
-                    <option value=1 selected>100%</option>
-                </select>
-            </div>
+
+    <aside class="mdc-drawer mdc-drawer--modal">
+        <div class="mdc-drawer__header">
+            <h3 class="mdc-drawer__title">Playlist</h3>
+            <h6 class="mdc-drawer__subtitle">曲を選択</h6>
         </div>
+        <div class="mdc-drawer__content">
+            <nav class="mdc-list">
+                <a class="mdc-list-item mdc-list-item--activated" href="#">
+                    <span class="mdc-list-item__text" data-movieid="vWYOKFi8pd8">Vous Et Moi - Django Reinhardt</span>
+                </a>
+                <a class="mdc-list-item" href="#">
+                    <span class="mdc-list-item__text" data-movieid="_bTXGvnQOxs">Twelfth Year - Django Reinhardt</span>
+                </a>
+            </nav>
+        </div>
+    </aside>
 
+    <div class="mdc-drawer-scrim"></div>
+
+
+    <div class="mdc-drawer-app-content mdc-top-app-bar--fixed-adjust">
+        <main class="main-content" id="main-content">
+
+
+            <div>
+                <div id="playerwrap">
+                    <div id="player"></div>
+                </div>
+            </div>
+
+            <div class="l-cont-wrap">
+                <div class="unit">
+                    <select name="speed" id="speed">
+                        <option value=0.5>50%</option>
+                        <option value=0.55>55%</option>
+                        <option value=0.6>60%</option>
+                        <option value=0.65>65%</option>
+                        <option value=0.7>70%</option>
+                        <option value=0.75>75%</option>
+                        <option value=0.8>80%</option>
+                        <option value=0.85>85%</option>
+                        <option value=0.9>90%</option>
+                        <option value=0.95>95%</option>
+                        <option value=1 selected>100%</option>
+                    </select>
+                </div>
+            </div>
+
+        </main>
     </div>
 
+
     <script src="index.js"></script>
+
 </body>
 
 </html>

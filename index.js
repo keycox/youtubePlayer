@@ -13,7 +13,7 @@
             player = new YT.Player('player', {
                 height: '360',
                 width: '640',
-                videoId: 'vWYOKFi8pd8',
+                //videoId: '_bTXGvnQOxs',
                 events: {
                     'onReady': onPlayerReady,
                     'onStateChange': onPlayerStateChange
@@ -25,6 +25,9 @@
         function onPlayerReady(event) {
             event.target.setPlaybackRate(1.0);
             //event.target.playVideo();
+            player.cueVideoById({videoId: 'vWYOKFi8pd8'});
+            //player.cueVideoById({videoId: '_bTXGvnQOxs'});
+
         }
 
         // 5. The API calls this function when the player's state changes.
@@ -43,11 +46,42 @@
             player.stopVideo();
         }
 
+
         //スピードコントロール
         var speedSelect = document.getElementById("speed");
         speedSelect.onchange = function (e) {
             player.setPlaybackRate(Number(e.target.value));
         };
+
+
+        /**
+         * drawer
+         */
+
+       const drawer = mdc.drawer.MDCDrawer.attachTo(document.querySelector('.mdc-drawer'));
+       const topAppBar = mdc.topAppBar.MDCTopAppBar.attachTo(document.getElementById('app-bar'));
+       topAppBar.setScrollTarget(document.getElementById('main-content'));
+       topAppBar.listen('MDCTopAppBar:nav', () => {
+         drawer.open = !drawer.open;
+       });
+
+
+       /*
+       * drawer リストクリックイベント
+       */
+      var playlist=document.querySelectorAll(".mdc-list-item");
+      for (var i=0; i<playlist.length; i++){
+        setPlayEvent(playlist[i]);
+      }
+      function setPlayEvent(el){
+          el.addEventListener("click",function(){
+              var movieId=el.querySelector(".mdc-list-item__text").dataset.movieid;
+              player.cueVideoById({videoId: movieId});
+              drawer.open = !drawer.open;
+          });
+      }
+       
+
 
 
 
