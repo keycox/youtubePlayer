@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/youtubePlayer/static/css/main.dd45cfe7.chunk.css",
+    "main.js": "/youtubePlayer/static/js/main.509d8570.chunk.js",
+    "main.js.map": "/youtubePlayer/static/js/main.509d8570.chunk.js.map",
+    "runtime-main.js": "/youtubePlayer/static/js/runtime-main.c1928f76.js",
+    "runtime-main.js.map": "/youtubePlayer/static/js/runtime-main.c1928f76.js.map",
+    "static/js/2.ed16df3c.chunk.js": "/youtubePlayer/static/js/2.ed16df3c.chunk.js",
+    "static/js/2.ed16df3c.chunk.js.map": "/youtubePlayer/static/js/2.ed16df3c.chunk.js.map",
+    "index.html": "/youtubePlayer/index.html",
+    "precache-manifest.3c85b2d535892d731305093a5d764357.js": "/youtubePlayer/precache-manifest.3c85b2d535892d731305093a5d764357.js",
+    "service-worker.js": "/youtubePlayer/service-worker.js",
+    "static/css/main.dd45cfe7.chunk.css.map": "/youtubePlayer/static/css/main.dd45cfe7.chunk.css.map",
+    "static/js/2.ed16df3c.chunk.js.LICENSE.txt": "/youtubePlayer/static/js/2.ed16df3c.chunk.js.LICENSE.txt",
+    "static/media/icon_mdi_home.svg": "/youtubePlayer/static/media/icon_mdi_home.58a50f33.svg",
+    "static/media/icon_mdi_playlist_add.svg": "/youtubePlayer/static/media/icon_mdi_playlist_add.b9c17c8e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c1928f76.js",
+    "static/js/2.ed16df3c.chunk.js",
+    "static/css/main.dd45cfe7.chunk.css",
+    "static/js/main.509d8570.chunk.js"
+  ]
+}
