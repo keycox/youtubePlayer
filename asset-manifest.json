@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/youtubePlayer/static/css/main.dd45cfe7.chunk.css",
-    "main.js": "/youtubePlayer/static/js/main.509d8570.chunk.js",
-    "main.js.map": "/youtubePlayer/static/js/main.509d8570.chunk.js.map",
+    "main.css": "/youtubePlayer/static/css/main.3db4cc24.chunk.css",
+    "main.js": "/youtubePlayer/static/js/main.5b812d40.chunk.js",
+    "main.js.map": "/youtubePlayer/static/js/main.5b812d40.chunk.js.map",
     "runtime-main.js": "/youtubePlayer/static/js/runtime-main.c1928f76.js",
     "runtime-main.js.map": "/youtubePlayer/static/js/runtime-main.c1928f76.js.map",
-    "static/js/2.ed16df3c.chunk.js": "/youtubePlayer/static/js/2.ed16df3c.chunk.js",
-    "static/js/2.ed16df3c.chunk.js.map": "/youtubePlayer/static/js/2.ed16df3c.chunk.js.map",
+    "static/js/2.861a2b01.chunk.js": "/youtubePlayer/static/js/2.861a2b01.chunk.js",
+    "static/js/2.861a2b01.chunk.js.map": "/youtubePlayer/static/js/2.861a2b01.chunk.js.map",
     "index.html": "/youtubePlayer/index.html",
-    "precache-manifest.3c85b2d535892d731305093a5d764357.js": "/youtubePlayer/precache-manifest.3c85b2d535892d731305093a5d764357.js",
+    "precache-manifest.3b5c845f9ebc6b004d5f698a4c5c82e7.js": "/youtubePlayer/precache-manifest.3b5c845f9ebc6b004d5f698a4c5c82e7.js",
     "service-worker.js": "/youtubePlayer/service-worker.js",
-    "static/css/main.dd45cfe7.chunk.css.map": "/youtubePlayer/static/css/main.dd45cfe7.chunk.css.map",
-    "static/js/2.ed16df3c.chunk.js.LICENSE.txt": "/youtubePlayer/static/js/2.ed16df3c.chunk.js.LICENSE.txt",
-    "static/media/icon_mdi_home.svg": "/youtubePlayer/static/media/icon_mdi_home.58a50f33.svg",
-    "static/media/icon_mdi_playlist_add.svg": "/youtubePlayer/static/media/icon_mdi_playlist_add.b9c17c8e.svg"
+    "static/css/main.3db4cc24.chunk.css.map": "/youtubePlayer/static/css/main.3db4cc24.chunk.css.map",
+    "static/js/2.861a2b01.chunk.js.LICENSE.txt": "/youtubePlayer/static/js/2.861a2b01.chunk.js.LICENSE.txt",
+    "static/media/icon_add.svg": "/youtubePlayer/static/media/icon_add.b06230f4.svg",
+    "static/media/icon_back.svg": "/youtubePlayer/static/media/icon_back.3df36169.svg",
+    "static/media/icon_mdi_home.svg": "/youtubePlayer/static/media/icon_mdi_home.c6a64f0a.svg",
+    "static/media/icon_mdi_playlist_add.svg": "/youtubePlayer/static/media/icon_mdi_playlist_add.a644d6f0.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c1928f76.js",
-    "static/js/2.ed16df3c.chunk.js",
-    "static/css/main.dd45cfe7.chunk.css",
-    "static/js/main.509d8570.chunk.js"
+    "static/js/2.861a2b01.chunk.js",
+    "static/css/main.3db4cc24.chunk.css",
+    "static/js/main.5b812d40.chunk.js"
   ]
 }
